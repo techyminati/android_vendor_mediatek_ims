@@ -8,7 +8,7 @@
 - ✅ **Unified IMS Package**: Includes all necessary Mediatek IMS framework components in a single APK.
 - ✅ **Commonized IMS**: If your stock blobs are from VNDK S & above vendor, this ims package will work for your seamlessly.
 - ✅ **No External Blobs Required**: Eliminates the need for individual ELF blobs like `libmtk_vt_service.so, vtservice`, etc.
-- ✅ **AOSP 16+ Compatible**: Rebuilt and tested against AOSP 16 sources.
+- ✅ **AOSP 16+ Compatible**: Rebuilt and tested against AOSP 16 QPR2 sources.
 - ✅ **Plug-and-Play**: Just include the `ims.mk` Makefile — no more hacks or blob chases.
 
 ## 📦 How it works?
@@ -40,7 +40,7 @@ $(call inherit-product, vendor/mediatek/ims/ims.mk)
 ## ❗Disclaimer
 
 * This project is intended for use by developers porting AOSP to Mediatek devices.
-* Tested on AOSP 16. Compatibility with earlier/later versions may require additional patches.
+* Tested on AOSP 16 QPR2+. Compatibility with earlier/later versions may require additional patches.
 * IMS/VoLTE features may depend on proper carrier and modem configurations.
 
 ## 📄 License
